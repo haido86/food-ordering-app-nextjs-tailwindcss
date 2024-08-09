@@ -4,9 +4,9 @@ import CountDown from './CountDown';
 
 export default function Offer() {
   return (
-    <div className="flex flex-col bg-black md:flex-row h-screen">
+    <div className="flex flex-col h-screen bg-black md:flex-row md:bg-[url('/offerBg.png')] md:justify-between md:h-[70vh]">
       {/* text container */}
-      <div className="text-white text-center flex-1 justify-center items-center flex flex-col p-6 md:p-20 gap-8">
+      <div className="flex-1 justify-center items-center text-white text-center flex flex-col gap-8 p-6 md:text-left md:items-start md:p-20">
         <h1 className="font-bold uppercase text-5xl xl:text-6xl 2xl:text-7xl">
           Delicious Burger & French Fry
         </h1>
@@ -17,8 +17,9 @@ export default function Offer() {
         <CountDown />
         <button className="bg-red-500 px-6 py-3 rounded-lg">Order Now</button>
       </div>
+
       {/* image container */}
-      <div className="relative flex-1 w-full">
+      <div className="relative flex-1 w-full md:h-full">
         <Image
           src="/offerProduct.png"
           alt="pizza"
