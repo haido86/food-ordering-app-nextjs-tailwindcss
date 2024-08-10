@@ -50,7 +50,7 @@ const CartPage = () => {
       {/* payment container */}
       <div className="h-1/2 p-4 bg-fuchsia-50 flex flex-col gap-4 justify-center lg:h-full lg:w-1/3 2xl:w-1/2 lg:px-10 xl:px-20 2xl:px-40 2xl:text-xl 2xl:gap-6">
         <div className="flex justify-between">
-          <span className="">Subtotal (3 items)</span>
+          <span className="">Subtotal (4 items)</span>
           <span className="">$81.70</span>
         </div>
         <div className="flex justify-between">
